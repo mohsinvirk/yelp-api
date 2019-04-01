@@ -86,7 +86,7 @@ class Search extends Component {
 
         const term = value.split(" ").join('-');
 
-        dispatch(getBusinesses(term ));
+        dispatch(getBusinesses(term, latitude, longitude ));
     }
 
     render() {
